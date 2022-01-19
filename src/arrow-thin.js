@@ -22,7 +22,7 @@ const ArrowThin = ({ closed, ...props }) => {
         y1='12'
         x2='21.9'
         y2='12'
-        style={{ style, strokeLinecap: 'round' }}
+        style={{ ...style, strokeLinecap: 'round' }}
       />
     </Box>
   )
