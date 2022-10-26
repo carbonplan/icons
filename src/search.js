@@ -11,7 +11,7 @@ const Search = ({ closed, ...props }) => {
       width='24'
       height='24'
       stroke='currentColor'
-      stroke-width='1.5'
+      strokeWidth='1.5'
       {...props}
     >
       <line x1='0.7' y1='23.3' x2='8.6' y2='15.4' style={style} />

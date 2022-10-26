@@ -11,7 +11,7 @@ const Check = ({ ...props }) => {
       width='24'
       height='24'
       stroke='currentColor'
-      stroke-width='1.5'
+      strokeWidth='1.5'
       {...props}
     >
       <polyline style={style} points='1.41,12.53 8.12,19.24 22.59,4.76 ' />

@@ -11,7 +11,7 @@ const Info = ({ closed, ...props }) => {
       width='24'
       height='24'
       stroke='currentColor'
-      stroke-width='1.5'
+      strokeWidth='1.5'
       {...props}
     >
       <g transform='translate(0,-1)'>

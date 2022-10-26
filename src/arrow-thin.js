@@ -11,7 +11,7 @@ const ArrowThin = ({ closed, ...props }) => {
       width='24'
       height='24'
       stroke='currentColor'
-      stroke-width='1.5'
+      strokeWidth='1.5'
       {...props}
     >
       <line x1='13.4' y1='3.5' x2='21.9' y2='12' style={style} />

@@ -11,7 +11,7 @@ const Settings = ({ ...props }) => {
       width='24'
       height='24'
       stroke='currentColor'
-      stroke-width='1.5'
+      strokeWidth='1.5'
       {...props}
     >
       <path d='M5.5 0V4' style={style} />
