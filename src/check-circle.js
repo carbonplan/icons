@@ -11,7 +11,7 @@ const CheckCircle = ({ ...props }) => {
       width='24'
       height='24'
       stroke='currentColor'
-      stroke-width='1.5'
+      strokeWidth='1.5'
       {...props}
     >
       <polyline style={style} points='5.95 13.34 10.25 17.64 19.53 8.36' />

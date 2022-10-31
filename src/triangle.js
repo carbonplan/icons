@@ -11,7 +11,7 @@ const Triangle = ({ closed, ...props }) => {
       width='24'
       height='24'
       stroke='currentColor'
-      stroke-width='1.5'
+      strokeWidth='1.5'
       {...props}
     >
       <polygon points='1.1,2.5 12,21.5 22.9,2.5 ' style={style} />

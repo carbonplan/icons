@@ -11,7 +11,7 @@ const Sun = ({ ...props }) => {
       width='24'
       height='24'
       stroke='currentColor'
-      stroke-width='1.5'
+      strokeWidth='1.5'
       {...props}
     >
       <circle cx='12' cy='12' r='4.77' />

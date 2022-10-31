@@ -11,7 +11,7 @@ const XCircle = ({ closed, ...props }) => {
       width='24'
       height='24'
       stroke='currentColor'
-      stroke-width='1.5'
+      strokeWidth='1.5'
       {...props}
     >
       <line x1={8} x2={18} y1={8} y2={18} style={style} />
