@@ -1,7 +1,8 @@
 import React from 'react'
 import { Box } from 'theme-ui'
+import { IconProps } from './icon-props'
 
-const Arrow = ({ ...props }) => {
+const Arrow = ({ ...props }: IconProps) => {
   return (
     <Box
       as='svg'

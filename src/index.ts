@@ -1,3 +1,4 @@
+export type { IconProps } from './icon-props'
 export { default as Arrow } from './arrow'
 export { default as ArrowThin } from './arrow-thin'
 export { default as Check } from './check'

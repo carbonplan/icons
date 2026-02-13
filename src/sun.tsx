@@ -1,8 +1,8 @@
 import React from 'react'
 import { Box } from 'theme-ui'
+import { IconProps } from './icon-props'
 
-const Sun = ({ ...props }) => {
-  const style = { vectorEffect: 'non-scaling-stroke' }
+const Sun = ({ ...props }: IconProps) => {
   return (
     <Box
       as='svg'

@@ -1,8 +1,9 @@
 import React from 'react'
 import { Box } from 'theme-ui'
+import { IconProps } from './icon-props'
 
-const Triangle = ({ closed, ...props }) => {
-  const style = { vectorEffect: 'non-scaling-stroke' }
+const Check = ({ ...props }: IconProps) => {
+  const style = { vectorEffect: 'non-scaling-stroke' as const }
   return (
     <Box
       as='svg'
@@ -14,9 +15,9 @@ const Triangle = ({ closed, ...props }) => {
       strokeWidth='1.5'
       {...props}
     >
-      <polygon points='1.1,2.5 12,21.5 22.9,2.5 ' style={style} />
+      <polyline style={style} points='1.41,12.53 8.12,19.24 22.59,4.76 ' />
     </Box>
   )
 }
 
-export default Triangle
+export default Check
