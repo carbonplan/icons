@@ -3,11 +3,14 @@
   "version": "2.0.0",
   "description": "icons for our websites",
   "main": "dst/index.js",
-  "module": "dst/index.esm.js",
+  "module": "dst/index.mjs",
+  "types": "dst/index.d.ts",
   "scripts": {
-    "build": "rimraf dst && microbundle src/index.js -o dst/index.js --no-compress --jsx React.createElement -f modern,es,cjs --jsxFragment React.Fragment",
-    "watch": "microbundle watch src/index.js -o dst/index.js --no-compress --jsx React.createElement -f modern,es,cjs --jsxFragment React.Fragment",
-    "format": "prettier --write README.md 'src/**/*.js'"
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "watch": "tsup --watch",
+    "clean": "rimraf dst",
+    "format": "prettier --write README.md 'src/**/*.tsx' 'src/**/*.ts'"
   },
   "repository": {
     "type": "git",
@@ -31,8 +34,11 @@
     "theme-ui": ">=0.15.0"
   },
   "devDependencies": {
-    "microbundle": "^0.13.0",
-    "prettier": "2.2.1",
-    "rimraf": "2.6.3"
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "prettier": "^2.2.1",
+    "rimraf": "2.6.3",
+    "tsup": "^8.5.1",
+    "typescript": "^5.8.2"
   }
 }
